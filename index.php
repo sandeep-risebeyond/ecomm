@@ -841,7 +841,6 @@ include 'navbar.php';
             </div>
         </div>
     </section>
-
     <!-- End feature Area -->
     <!--================ start footer Area  =================-->
     <?php
