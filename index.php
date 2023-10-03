@@ -794,7 +794,6 @@ include 'navbar.php';
                                         <p class="text-lowercase">15 DAYS FREE RETURNS</p>
                                     </div>
                                 </div>
-
                             </div>
                             <div class="col">
                                 <div class="col-md-12">
@@ -806,7 +805,6 @@ include 'navbar.php';
                                         <p>Know your margins.</p>
                                     </div>
                                 </div>
-
                             </div>
                         </div>
                     </div>

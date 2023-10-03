@@ -2,10 +2,11 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-2 col-md-6 single-footer-widget">
-                <h4>Top Products</h4>
+                <h4 class="text-uppercase">Customer</h4>
                 <ul>
                     <li><a href="blog.php">Blogs</a></li>
                     <li><a href="contact.php">Contact Us</a></li>
+                    <li><a href="contact.php">Track Order</a></li>
 
                 </ul>
                 <small>PAY SECURELY BY</small>
@@ -21,20 +22,23 @@
                 </ul>
             </div>
             <div class="col-lg-2 col-md-6 single-footer-widget">
-                <h4>Features</h4>
+                <h4 class="text-uppercase">Policies</h4>
+                <ul>
+                    <li><a href="#">Terms of Service</a></li>
+                </ul>
                 <ul>
                     <li><a href="#">Terms of Service</a></li>
                 </ul>
             </div>
             <div class="col-lg-2 col-md-6 single-footer-widget">
-                <h4>Resources</h4>
+                <h4></h4>
                 <ul>
                     <li><a href="#">Privacy Policy</a></li>
                 </ul>
             </div>
             <div class="col-lg-4 col-md-6 single-footer-widget">
                 <h4>Newsletter</h4>
-                <!-- <p>You can trust us. we only send promo offers,</p> -->
+                <!-- <p>You can trust us. we only send promo offers,</p> --->
                 <div class="form-wrap" id="mc_embed_signup">
                     <form target="_blank"
                         action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&amp;id=92a4423d01"
