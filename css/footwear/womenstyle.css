@@ -1,0 +1,184 @@
+.brand_container {
+    border: 2px solid #ccc;
+    width: 300px;
+    height: 300px;
+    overflow-y: scroll;
+}
+
+.type_container {
+    border: 2px solid #ccc;
+    width: 300px;
+    height: 300px;
+    overflow-y: scroll;
+}
+
+.color_container {
+    border: 2px solid #ccc;
+    width: 300px;
+    height: 300px;
+    overflow-y: scroll;
+}
+
+.dot_black {
+    height: 15px;
+    width: 15px;
+    background-color: black;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.dot_white {
+    height: 15px;
+    width: 15px;
+    background-color: white;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.dot_gray {
+    height: 15px;
+    width: 15px;
+    background-color: gray;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.dot_red {
+    height: 15px;
+    width: 15px;
+    background-color: red;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.dot_green {
+    height: 15px;
+    width: 15px;
+    background-color: green;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.dot_blue {
+    height: 15px;
+    width: 15px;
+    background-color: blue;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.dot_yellow {
+    height: 15px;
+    width: 15px;
+    background-color: yellow;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.dot_orange {
+    height: 15px;
+    width: 15px;
+    background-color: orange;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.dot_violet {
+    height: 15px;
+    width: 15px;
+    background-color: violet;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.dot_tomato {
+    height: 15px;
+    width: 15px;
+    background-color: tomato;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.dot_dodgerblue {
+    height: 15px;
+    width: 15px;
+    background-color: dodgerblue;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.dot_msg {
+    height: 15px;
+    width: 15px;
+    background-color: mediumseagreen;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.dot_slateblue {
+    height: 15px;
+    width: 15px;
+    background-color: slateblue;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.dot_lightgray {
+    height: 15px;
+    width: 15px;
+    background-color: lightgray;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.dot_aqua {
+    height: 15px;
+    width: 15px;
+    background-color: aqua;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.dot_gold {
+    height: 15px;
+    width: 15px;
+    background-color: gold;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.dot_olive {
+    height: 15px;
+    width: 15px;
+    background-color: olive;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.card .card-header .size_button {
+    margin-left:150px;
+}
+.card .card-header .brand_button {
+    margin-left:140px;
+}
+.card .card-header .price_button {
+    margin-left:145px;
+}
+.card .card-header .heeltype_button {
+    margin-left:111px;
+}
+.card .card-header .heelheight_button {
+    margin-left:100px;
+}
+.card .card-header .type_button {
+    margin-left:150px;
+}
+.card .card-header .lining_button {
+    margin-left:80px;
+}
+.card .card-header .colour_button {
+    margin-left:130px;
+}
+.card .card-header .occasion_button {
+    margin-left:120px;
+}

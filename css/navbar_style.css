@@ -1,0 +1,265 @@
+/* css for electronic */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    width: 700px;
+    height: 0px;
+    margin-left: -382px;
+    margin-top: 0px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 2px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    /* background-color: #ddd; */
+    text-decoration: underline;
+    text-decoration-color: #71CD14;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #f2f7f6;
+
+}
+
+.table-responsive {
+    width: 900px;
+    margin-top: 10px;
+    margin-left: 0px;
+}
+
+@media(max-width:600px) {
+    .nav .nav-item {
+        background-color: #f7f7f7 !important;
+        padding: 5px 200px;
+        border-bottom: 0.5px solid lightgray;
+    }
+
+    .nav .serbtn {
+        margin-left: -27px;
+        font-weight: 400;
+    }
+
+    .nav-item .res_mobile {
+        height: 100vh !important;
+    }
+
+    /* .card {
+      height: 227px;
+      overflow-y: scroll;
+      font-size: 14px;
+      text-align: left;
+      margin-left: 14%;
+  } */
+
+    .nav {
+        height: 400px !important;
+    }
+}
+
+/* for jewellary and accessory / KIDS */
+.jewellary {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    width: 400px;
+    height: 0px;
+    margin-left: 0px;
+    margin-top: 0px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+/* for Men */
+.men {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    width: 1137px;
+    height: 0px;
+    margin-left: 0px;
+    margin-top: 0px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+/* for women */
+.women {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    width: 593px;
+    height: 0px;
+    margin-left: 0px;
+    margin-top: 0px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.kids {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    width: 798px;
+    height: 0px;
+    margin-left: 0px;
+    margin-top: 0px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.bags {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    width: 691px;
+    height: 0px;
+    margin-left: 0px;
+    margin-top: 0px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.kitchen {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    width: 507px;
+    height: 0px;
+    margin-left: 0px;
+    margin-top: 0px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.beauty {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    width: 407px;
+    height: 0px;
+    margin-left: 0px;
+    margin-top: 0px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+
+}
+
+.electronic {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    width: 405px;
+    height: 0px;
+    margin-left: -150px;
+    margin-top: 0px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+
+}
+
+@media(max-width:600px) {
+    .electronic {
+        /* background-color: #f7f7f7 !important; */
+        padding: 0px 0px;
+        margin-left: 0px;
+       
+    }
+}
+
+h5 {
+    margin-left: 15px;
+}
+
+/* media css for side */
+
+/* ul li:hover {
+    background-color: #d1d0cd;
+    
+}
+        
+.dropdown {
+  position: relative;
+  display: inline-block;
+} */
+
+/* .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  width:700px;
+  height:0px;
+  margin-left:-300px;
+  margin-top:0px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+} */
+@media(max-width:600px){
+    .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+      }
+      
+      .dropdown-content a:hover {background-color: #ddd;}
+      
+      .dropdown:hover .dropdown-content {display: block;}
+      
+      .dropdown:hover .dropbtn {background-color:#f2f7f6;}
+
+}
+
+
+
+
+@media(max-width:600px)
+
+{
+    .nav .nav-item
+    {
+        background-color:#f7f7f7 !important;
+        padding:5px 200px;
+        border-bottom:0.5px solid lightgray;
+    }
+    .nav .serbtn
+    {
+        margin-left: -27px;
+        font-weight: 400;
+    }
+    .nav-item .res_mobile
+    {
+        height:100vh !important;
+    }
+   /* .card
+   {
+    height: 500px;
+    overflow-y: scroll;
+    font-size: 14px;
+    text-align:right;
+    margin-left:14%;
+   } */
+   .nav
+   {
+       height:400px !important;
+   }
+}
+
+
+

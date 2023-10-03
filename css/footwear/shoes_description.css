@@ -1,0 +1,247 @@
+.rupees {
+    font-size: 30px;
+}
+
+.btn-circle.btn-md {
+    width: 50px;
+    height: 50px;
+    padding: 7px 10px;
+    border-radius: 25px;
+    font-size: 10px;
+    text-align: center;
+}
+
+.size {
+    font-size: 17px;
+}
+
+.main_section {
+    padding: 10px;
+    margin-bottom: 100px;
+}
+
+.icon-section {
+    font-size: 20px;
+}
+
+.product_detail {
+    font-size: 20px;
+}
+
+.product_name {
+    font-size: 20px;
+}
+
+.product_card1 {
+    margin-left: 150px;
+}
+
+.product_card2 {
+    margin-left: 160px;
+}
+
+.product_card3 {
+    margin-left: 175px;
+}
+
+.accordion .card-header:after {
+    font-family: 'FontAwesome';
+    content: "\f068";
+    float: right;
+}
+
+.accordion .card-header.collapsed:after {
+    /* symbol for "collapsed" panels */
+    content: "\f067";
+}
+
+.similar_product h1 {
+    font-size: 22px;
+}
+
+.your_rating {
+    font-size: 20px;
+}
+
+/* star rating */
+
+.rating {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+}
+
+.rating>input {
+    display: none;
+}
+
+.rating>label {
+    position: relative;
+    width: 1em;
+    font-size: 3vw;
+    color: #FFD600;
+    cursor: pointer;
+}
+
+.rating>label::before {
+    content: "\2605";
+    position: absolute;
+    opacity: 0;
+}
+
+.rating>label:hover:before,
+.rating>label:hover~label:before {
+    opacity: 1 !important;
+}
+
+.rating>input:checked~label:before {
+    opacity: 1;
+}
+
+.rating:hover>input:checked~label:before {
+    opacity: 0.4;
+}
+
+p {
+    text-align: center;
+
+}
+
+/* h1{
+margin-top:150px;
+} */
+p {
+    font-size: 1.2rem;
+}
+
+
+@media only screen and (max-width: 600px) {
+
+    /* h1{font-size: 14px;} */
+    p {
+        font-size: 12px;
+    }
+
+    .rating>label {
+        position: relative;
+        width: 1.2em;
+        font-size: 10vw;
+        color: #FFD600;
+        cursor: pointer;
+        margin-top: 20px;
+    }
+
+}
+.slideshow-items {
+    width: 500px;
+}
+
+.slideshow-thumbnails {
+    width: 100px;
+}
+
+#slideshow-items-container {
+    display: inline-block;
+    position: relative;
+}
+
+#lens {
+    background-color: rgba(233, 233, 233, 0.4)
+}
+
+#lens,
+#result {
+    position: absolute;
+    display: none;
+    z-index: 1;
+}
+
+.slideshow-items {
+    display: none;
+}
+
+.slideshow-items.active {
+    display: block;
+}
+
+.slideshow-thumbnails {
+    opacity: 0.5;
+}
+
+.slideshow-thumbnails.active {
+    opacity: 1;
+}
+
+#lens,
+.slideshow-items,
+.slideshow-thumbnails,
+#result {
+    border: solid var(--light-grey-2) 1px;
+}
+
+.slideshow-thumbnails {
+    width: 100%;
+}
+
+.slideshow-thumbnails {
+    border: 1px solid lightgray;
+}
+
+.color_image:hover {
+    transform: scale(1.1);
+}
+
+.img_card {
+    height: 60px;
+    width: 60px;
+}
+
+@media screen and (max-width:572px) {
+    .img_card {
+        height: 60px;
+        width: 60px;
+        margin: 10px;
+    }
+
+}
+
+@media screen and (max-width:600px) {
+    .similar-product {
+        padding: 0px;
+
+    }
+}
+/* css for size of men_shoes,kids shoes ,women shoes*/
+
+.size_section {
+    background: #dfdfdf;
+    padding: 4px;
+    border-radius: 3px;
+    position: relative;
+    width: fit-content;
+  }
+
+  .size_section input {
+    appearance: none;
+    cursor: pointer;
+    border-radius: 2px;
+    padding: 5px 10px;
+    background: #3f414d;
+    color: #ececec;
+    font-size: 15px;
+    font-family: sans-serif;
+    transition: all 0.1s;
+  }
+
+  .size_section input:checked {
+    background: #71cd14;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+    text-shadow: 0 1px 0px #808080;
+  }
+
+  .size_section input::before {
+    content: attr(label);
+    text-align: center;
+  }
+  
+

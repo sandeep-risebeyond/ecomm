@@ -1,0 +1,301 @@
+.brand_container {
+    border: 1px solid hsl(0, 24%, 96%);
+    width: 180px;
+    height: 300px;
+    overflow-y: scroll;
+}
+
+.type_container {
+    border: 1px solid hsl(0, 24%, 96%);
+    width: 180px;
+    height: 300px;
+    overflow-y: scroll;
+}
+
+.color_container {
+    border: 1px solid hsl(0, 24%, 96%);
+    width: 180px;
+    height: 300px;
+    overflow-y: scroll;
+}
+
+.dot_black {
+    height: 15px;
+    width: 15px;
+    background-color: black;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.dot_white {
+    height: 15px;
+    width: 15px;
+    background-color: white;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.dot_gray {
+    height: 15px;
+    width: 15px;
+    background-color: gray;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.dot_red {
+    height: 15px;
+    width: 15px;
+    background-color: red;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.dot_green {
+    height: 15px;
+    width: 15px;
+    background-color: green;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.dot_blue {
+    height: 15px;
+    width: 15px;
+    background-color: blue;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.dot_yellow {
+    height: 15px;
+    width: 15px;
+    background-color: yellow;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.dot_orange {
+    height: 15px;
+    width: 15px;
+    background-color: orange;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.dot_violet {
+    height: 15px;
+    width: 15px;
+    background-color: violet;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.dot_tomato {
+    height: 15px;
+    width: 15px;
+    background-color: tomato;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.dot_dodgerblue {
+    height: 15px;
+    width: 15px;
+    background-color: dodgerblue;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.dot_msg {
+    height: 15px;
+    width: 15px;
+    background-color: mediumseagreen;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.dot_slateblue {
+    height: 15px;
+    width: 15px;
+    background-color: slateblue;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.dot_lightgray {
+    height: 15px;
+    width: 15px;
+    background-color: lightgray;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.dot_aqua {
+    height: 15px;
+    width: 15px;
+    background-color: aqua;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.dot_gold {
+    height: 15px;
+    width: 15px;
+    background-color: gold;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.dot_olive {
+    height: 15px;
+    width: 15px;
+    background-color: olive;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.card .card-header .occasion_button {
+    margin-left:25px;
+}
+.card .card-header .colour_button {
+    margin-left:35px;
+}
+.card .card-header .lining_button {
+    margin-left:0px;
+}
+.card .card-header .type_button {
+    margin-left:60px;
+}
+.card .card-header .heel_button {
+    margin-left:10px;
+}
+.card .card-header .heeltype_button {
+    margin-left:20px;
+}
+.card .card-header .price_button {
+    margin-left:55px;
+}
+.card .card-header .brand_button {
+    margin-left:50px;
+}
+.card .card-header .size_button {
+    margin-left:60px;
+}
+.card .card_section {
+    height:60px;
+}
+
+/* css for women shoes accordian */
+
+.accordion {
+    border-radius: 3px;
+    width: 100%;
+    /* box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px; */
+    background: white;
+    color: black;
+    overflow: hidden;
+}
+
+.accordion-header {
+    border-bottom: 1px solid #ccc;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.accordion-header-content {
+    padding: 10px;
+    overflow: hidden;
+    position: relative;
+    z-index: 9;
+}
+
+.accordion-header-content-label {
+    color: #ccc;
+}
+
+.accordion-header-content-title {
+    margin-top: 10px;
+}
+
+.accordion-content {
+    padding: 10px;
+    position: relative;
+    overflow: hidden;
+}
+
+.accordion-content-text {
+    color: #ccc;
+}
+
+/* accordion open effect */
+
+details summary {
+    cursor: pointer;
+    transition: all 225ms ease-out;
+    position: relative;
+}
+
+details[open] summary {
+    margin-bottom: 100px;
+    overflow: hidden;
+    position: relative;
+    background: white;
+}
+
+details[open] .accordion-content {
+    padding: 10px;
+    margin-top: -100px;
+}
+
+details[open] .accordion-header-content-label {
+    color: black;
+}
+
+/* remove marker */
+
+details>summary {
+    list-style: none;
+}
+
+details>summary::-webkit-details-marker {
+    display: none;
+}
+
+/* custom marker */
+
+summary::after {
+    content: '+';
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 26px;
+}
+
+details[open] summary::after {
+    content: '-';
+    font-size: 36px;
+}
+
+.scroll_container {
+    width: 100%;
+}
+
+.border-secondary:focus {
+    background-color: cyan;
+}
+
+.side_bar {
+    padding: 0px;
+    margin: 0px;
+}
+
+.product_image {
+    height: 240px;
+}
+
+
+
+
+
