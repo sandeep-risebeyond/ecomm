@@ -822,7 +822,6 @@ include 'navbar.php';
                                         <p>Thank you as always</p>
                                     </div>
                                 </div>
-
                             </div>
                             <div class="col">
                                 <div class="col-md-12">
@@ -844,13 +843,10 @@ include 'navbar.php';
     </section>
 
     <!-- End feature Area -->
-
     <!--================ start footer Area  =================-->
     <?php
 include 'footer.php';
 ?>
     <!-- =================end footer area===================== -->
 </body>
-
-
 </html>
