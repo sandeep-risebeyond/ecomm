@@ -771,7 +771,7 @@ include 'navbar.php';
             </div>
         </div>
     </section>
-    <!--================ End Blog Area ==================-->
+    <!--================ End Blog Area ===================-->
 
     <!-- Start feature Area -->
     <section class="feature-area section_gap_bottom_custom">
